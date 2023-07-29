@@ -1,6 +1,4 @@
 import React from 'react';
-import './EventPage.css';
-import './Sidebar.css';
 
 const EventPage = () => {
   return (
