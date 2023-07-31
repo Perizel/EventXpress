@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-img {
+  background: linear-gradient(rgba(8, 6, 19, 0.989), rgba(8, 6, 19, 0.989)),
+    url(./bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.box-container {
+  display: flex;
+  height: 39rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box {
+  border-radius: 1.25rem;
+  padding: 3.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(220, 220, 220, 0.039);
+}
+
+.logo-img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.handle {
+  width: 3.25rem;
+  height: 2rem;
+  border-radius: 6.25rem;
+  border: 2px solid #0e0b1d;
+  background: #e6f5f8;
+}
+
+.logo-side {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  padding: 1rem 0;
+  display: flex;
+  margin-left: 8.12rem;
+  margin-right: 8.63rem;
+  /* justify-content: space-around; */
+  gap: 61.375rem;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: 0.19rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.user>p {
+  color: #ffd400;
+}
+
+.box-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62rem;
+}
+
+.box-heading>h2 {
+  color: #e6f5f8;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.box-heading>p {
+  color: #ffd400;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+form {
+  padding: 3.75rem 1.25rem;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-left: 80px;
+  color: #e6f5f8;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  width: 10.8125rem;
+  height: 2.5rem;
+  padding: 0.625rem 5rem 0.625rem 0.625rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+  color: #e6f5f8;
+}
+
+.names>input {
+  border-radius: 0.5rem;
+  width: 10.8125rem;
+  padding: 0.625rem 9px;
+  border: 1px solid rgba(230, 245, 248, 0.3);
+  background: #070612;
+}
+
+.name {
+  display: flex;
+  gap: 1.69rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.emails {
+  display: flex;
+  flex-direction: column;
+  height: 2.5rem;
+  padding: 0.625rem 5rem 0.625rem 0.625rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+  color: #e6f5f8;
+}
+
+.emails>input {
+  border-radius: 0.5rem;
+  width: 23.25rem;
+  padding: 0.625rem 9px;
+  border: 1px solid rgba(230, 245, 248, 0.3);
+  background: #070612;
+  color: #e6f5f8;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+  height: 2.5rem;
+  padding: 0.625rem 5rem 0.625rem 0.625rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.pass>input {
+  border-radius: 0.5rem;
+  width: 23.25rem;
+  padding: 0.625rem 9px;
+  border: 1px solid rgba(230, 245, 248, 0.3);
+  background: #070612;
+  color: #e6f5f8;
+}
+
+.check {
+  display: flex;
+  color: #ffd400;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  height: 2.5rem;
+  padding: 0.625rem 5rem 0.625rem 0.625rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.565rem;
+}
+
+button {
+  background-color: #ffd400;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  width: 23.25rem;
+  padding: 0.625rem 9px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.88rem;
+}
+
+.social {
+  width: 10.625rem;
+}
+
+.social {
+  display: flex; /* Add this line to use flexbox */
+  align-items: center; /* Add this line to vertically center the content */
+  gap: 0.5rem; /* Add this line to add some space between the text and the image */
+  width: 10.625rem;
+  background-color: black;
+  color: white;
+}
+
+
+
+.signin {
+  display: flex;
+  gap: 0.62rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+  margin-left: 950px;
+}
+
+.yellow {
+  color: #ffd400;
+}
