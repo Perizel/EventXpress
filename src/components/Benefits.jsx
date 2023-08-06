@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { AuthContext } from './Log';
 import circle_1 from '../assets/circle-1.png'
 import circle_2 from '../assets/circle-2.png'
 import circle_3 from '../assets/circle-3.png'
@@ -13,7 +15,15 @@ import circle_3_icon from '../assets/circle-3-icon.svg'
 // import { faPeopleLine } from '@fortawesome/free-solid-svg-icons'
 // import { faPerson } from '@fortawesome/free-solid-svg-icons'
 
+
 export default function Benefits() {
+
+    const { authenticated, handleLogout, updateAuthState } = useContext(AuthContext);
+    const handleSignIn = () => {
+        // ... handle sign-in logic here ...
+        updateAuthState(true); // Update the authenticated state after successful sign-in
+    };
+
     return (
         <section className='event-benefits'>
             <h2>Why you should join <span className='clr-yellow'>Event</span></h2>
@@ -50,9 +60,17 @@ export default function Benefits() {
                 </div>
             </div>
 
-            <p className='benefit-p'>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.
-                Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
-            <button className='benefits-btn'>Register Now</button>
+            <p className='benefit-p'>Join our event to unlock a world of possibilities. Engage with industry experts, gain insights into the latest trends, and connect with like-minded professionals. Elevate your knowledge, broaden your network, and be part of an unforgettable experience that will propel your personal and professional growth.</p>
+            {authenticated ? (
+                <button className='benefits-btn' onClick={handleLogout}>
+                    Logout
+                </button>
+            ) : (
+
+                <button className='benefits-btn' onClick={handleSignIn}>
+                    <Link to='/Signup'> Register Now </Link>
+                </button>
+            )}
         </section>
     )
 }

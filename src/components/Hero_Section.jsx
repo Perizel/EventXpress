@@ -40,7 +40,7 @@ export default function HeroSection() {
                     </div>
                     <div className='hero-date'>
                         <FontAwesomeIcon icon={faCalendar} className='clr-yellow' />
-                        <p>28th July, 2023</p>
+                        <p>30th August, 2023</p>
                     </div>
                 </div>
                 <div className='hero-btns'>

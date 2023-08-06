@@ -32,7 +32,7 @@ export default function EventFeedbacks() {
                         </div>
                     </div>
                     <div className='event-feedback-card-bottom'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <p>The business summit was a transformative experience, providing invaluable insights and fostering meaningful connections. The well-structured sessions and expert speakers exceeded expectations, leaving me inspired to implement new strategies.</p>
                     </div>
                 </div>
                 {/* Card-2 */}
@@ -51,7 +51,7 @@ export default function EventFeedbacks() {
                         </div>
                     </div>
                     <div className='event-feedback-card-bottom'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <p>The art exhibition was a feast for the senses, with a diverse range of captivating artworks that sparked deep emotions. The organizers' dedication to promoting creativity and culture is commendable, and I left with a renewed appreciation for the arts</p>
                     </div>
                 </div>
                 {/* Card-3 */}
@@ -70,7 +70,7 @@ export default function EventFeedbacks() {
                         </div>
                     </div>
                     <div className='event-feedback-card-bottom'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <p>Attending the charity gala was a heartwarming experience. The event was flawlessly organized, creating an atmosphere of joy and camaraderie. Knowing that the proceeds are making a positive impact in the community made the evening even more special. Kudos to the team!</p>
                     </div>
                 </div>
             </div>

@@ -27,14 +27,14 @@ export default function UpcomingEvents() {
                             <button className='card-date-btn'>Business</button>
                             <div className='card-date'>
                                 <FontAwesomeIcon icon={faCalendar} />
-                                <small className='date'>28th July, 2023</small>
+                                <small className='date'>18th August, 2023</small>
                             </div>
                         </div>
-                        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
+                        <p>Discover groundbreaking opportunities and expand your network at our premier business summit, featuring influential speakers and industry pioneers.</p>
                         <div className='card-location-container'>
                             <div className='card-location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
-                                <small className='location'>San Fracisco</small>
+                                <small className='location'>Ado-Ekiti</small>
                             </div>
                             <FontAwesomeIcon icon={faArrowRight} />
                         </div>
@@ -53,14 +53,14 @@ export default function UpcomingEvents() {
                             <button className='card-date-btn'>Art</button>
                             <div className='card-date'>
                                 <FontAwesomeIcon icon={faCalendar} />
-                                <small className='date'>28th July, 2023</small>
+                                <small className='date'>21st August, 2023</small>
                             </div>
                         </div>
-                        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
+                        <p>Immerse yourself in a captivating artistic journey at our gallery exhibition, showcasing the works of talented artists and celebrating creativity.</p>
                         <div className='card-location-container'>
                             <div className='card-location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
-                                <small className='location'>San Fracisco</small>
+                                <small className='location'>Ikere-Ekiti</small>
                             </div>
                             <FontAwesomeIcon icon={faArrowRight} />
                         </div>
@@ -79,14 +79,14 @@ export default function UpcomingEvents() {
                             <button className='card-date-btn'>Social</button>
                             <div className='card-date'>
                                 <FontAwesomeIcon icon={faCalendar} />
-                                <small className='date'>28th July, 2023</small>
+                                <small className='date'>23rd August, 2023</small>
                             </div>
                         </div>
-                        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
+                        <p>Join us for an unforgettable evening of fun and connection at our charity gala, supporting a worthy cause and making a positive impact in the community.</p>
                         <div className='card-location-container'>
                             <div className='card-location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
-                                <small className='location'>San Fracisco</small>
+                                <small className='location'>Emure-Ekiti</small>
                             </div>
                             <FontAwesomeIcon icon={faArrowRight} />
                         </div>

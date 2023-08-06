@@ -26,7 +26,7 @@ export default function IntlBusinessSummit() {
                 <div className='business-summit-card-left-container'>
                     <div className='business-summit-card-left'>
                         <h3>1st Day</h3>
-                        <small>28th July, 2023</small>
+                        <small>27th August, 2023</small>
                         <div className='business-summit-card-stream'>
                             <small>Live Stream</small>
                             <div className='box-images'>
@@ -41,7 +41,7 @@ export default function IntlBusinessSummit() {
                             <h3>Fast and powerful like you</h3>
                             <button className='business-summit-card-btn'>Business</button>
                         </div>
-                        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.Reprehenderit esse labore id veniam</p>
+                        <p>Join us at our 2 days exclusive networking gala for industry leaders and innovators, showcasing cutting-edge solutions and fostering collaborations</p>
                         <div className='time-container'>
                             <div className='time'>
                                 <FontAwesomeIcon icon={faClock} />
@@ -49,7 +49,7 @@ export default function IntlBusinessSummit() {
                             </div>
                             <div className='location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
-                                <small>San Fracisco, CA</small>
+                                <small>Ado-Ekiti, Ekiti State</small>
                             </div>
                         </div>
                     </div>
@@ -65,8 +65,8 @@ export default function IntlBusinessSummit() {
             <div className='business-summit-card'>
                 <div className='business-summit-card-left-container'>
                     <div className='business-summit-card-left'>
-                        <h3>1st Day</h3>
-                        <small>28th July, 2023</small>
+                        <h3>2nd Day</h3>
+                        <small>28th August, 2023</small>
                         <div className='business-summit-card-stream'>
                             <small>Live Stream</small>
                             <div className='box-images'>
@@ -81,7 +81,7 @@ export default function IntlBusinessSummit() {
                             <h3>Fast and powerful like you</h3>
                             <button className='business-summit-card-btn'>Business</button>
                         </div>
-                        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.Reprehenderit esse labore id veniam</p>
+                        <p>Join us at our 2 days exclusive networking gala for industry leaders and innovators, showcasing cutting-edge solutions and fostering collaborations</p>
                         <div className='time-container'>
                             <div className='time'>
                                 <FontAwesomeIcon icon={faClock} />
@@ -89,7 +89,7 @@ export default function IntlBusinessSummit() {
                             </div>
                             <div className='location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
-                                <small>San Fracisco, CA</small>
+                                <small>Ado-Ekiti, Ekiti State</small>
                             </div>
                         </div>
                     </div>
@@ -105,8 +105,8 @@ export default function IntlBusinessSummit() {
             <div className='business-summit-card'>
                 <div className='business-summit-card-left-container'>
                     <div className='business-summit-card-left'>
-                        <h3>2nd Day</h3>
-                        <small>29th July, 2023</small>
+                        <h3>Single Day</h3>
+                        <small>29th August, 2023</small>
                         <div className='business-summit-card-stream'>
                             <small>Live Stream</small>
                             <div className='box-images'>
@@ -119,9 +119,9 @@ export default function IntlBusinessSummit() {
                     <div className='business-summit-card-middle'>
                         <div className='title'>
                             <h3>Fast and powerful like you</h3>
-                            <button className='business-summit-card-btn'>Business</button>
+                            <button className='business-summit-card-btn'>Seminar</button>
                         </div>
-                        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.Reprehenderit esse labore id veniam</p>
+                        <p>Unlock new insights and strategies at our upcoming seminar, where experts will delve into the latest trends and empower your business growth.</p>
                         <div className='time-container'>
                             <div className='time'>
                                 <FontAwesomeIcon icon={faClock} />
@@ -129,7 +129,7 @@ export default function IntlBusinessSummit() {
                             </div>
                             <div className='location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
-                                <small>San Fracisco, CA</small>
+                                <small>Ikere, Ekiti</small>
                             </div>
                         </div>
                     </div>
