@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { AuthContext } from './Log';
+import { AuthContext } from './Auth/Log';
 
 import UpcomingEvents from './UpcomingEvents';
 import IntlBusinessSummit from './Intl_Business_Summit';
@@ -61,7 +61,7 @@ const Home = () => {
                                 Logout
                             </button>
                         ) : (
-                            <Link to='/Signup'>
+                            <Link to='../Signup'>
                                 <button className='register-btn' onClick={handleSignIn}>
                                     Register Now
                                 </button>

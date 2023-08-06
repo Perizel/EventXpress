@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { AuthContext } from './Log';
+import { AuthContext } from './Auth/Log';
 import circle_1 from '../assets/circle-1.png'
 import circle_2 from '../assets/circle-2.png'
 import circle_3 from '../assets/circle-3.png'
@@ -68,7 +68,7 @@ export default function Benefits() {
             ) : (
 
                 <button className='benefits-btn' onClick={handleSignIn}>
-                    <Link to='/Signup'> Register Now </Link>
+                    <Link to='../Signup'> Register Now </Link>
                 </button>
             )}
         </section>
